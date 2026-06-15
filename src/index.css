@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-brand-bg: #FDFBF7;
+  --color-brand-text: #3D2B1F;
+  --color-brand-accent: #A0522D;
+  --color-brand-accent-dark: #8B4513;
+  --color-brand-biscuit-1: #F5E6DA;
+  --color-brand-biscuit-2: #EADBC8;
+  --color-brand-biscuit-3: #D9C5B2;
+  --color-brand-biscuit-4: #C7B299;
+  --color-brand-badge: #E8D5C4;
+
+  /* Redefining amber standard palette to map to Geometric Balance theme */
+  --color-amber-50: #FDFBF7;
+  --color-amber-100: #F5E6DA;
+  --color-amber-200: #EADBC8;
+  --color-amber-300: #D9C5B2;
+  --color-amber-400: #C7B299;
+  --color-amber-500: #A0522D;
+  --color-amber-600: #8B4513;
+  --color-amber-700: #8B4513;
+  --color-amber-800: #3D2B1F;
+  --color-amber-900: #3D2B1F;
+  --color-amber-950: #211209;
+
+  /* Redefining rose standard palette to map to Geometric Balance theme */
+  --color-rose-50: #FDFBF7;
+  --color-rose-100: #F5E6DA;
+  --color-rose-200: #EADBC8;
+  --color-rose-300: #D9C5B2;
+  --color-rose-450: #C7B299;
+  --color-rose-500: #A0522D;
+  --color-rose-600: #8B4513;
+  --color-rose-700: #A0522D;
+  --color-rose-800: #3D2B1F;
+  --color-rose-900: #3D2B1F;
+  --color-rose-950: #211209;
+}
+
+/* Custom scrollbar and design-specific overrides for perfect Geometric Balance layout */
+body {
+  background-color: #FDFBF7;
+  color: #3D2B1F;
+}
+
+/* Rounded corners for geometric items according to theme style */
+.bento-card {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card:hover {
+  transform: translateY(-2px);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Cakery - Homemade Bakes by Manju",
+  "description": "Order premium homemade cakes, eggless options, and custom bakes by Manju in Kanhangad, Kerala. Browse the real menu and check out via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

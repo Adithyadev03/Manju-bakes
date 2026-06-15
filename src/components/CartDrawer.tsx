@@ -82,7 +82,7 @@ export default function CartDrawer({
 
     const compiledText = compileWhatsAppMessage();
     const encodedText = encodeURIComponent(compiledText);
-    const targetNumber = '91830191822'; // Manju's true Kanhangad WhatsApp
+    const targetNumber = '918301991822'; // Manju's true Kanhangad WhatsApp
     const waUrl = `https://wa.me/${targetNumber}?text=${encodedText}`;
     
     window.open(waUrl, '_blank');
